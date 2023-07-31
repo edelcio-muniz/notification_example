@@ -1,0 +1,37 @@
+ {
+    "name": "edelc/notification",
+    "description": "This is a library that uses composer as the basis for generating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Edelc\\Notification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "edelciomuniz",
+            "email": "edelcio@edelcio.muniz.nom.br",
+            "homepage": "https://edelcio.muniz.nom.br",
+            "role": "Developer"
+        },
+        {
+            "name": "EMWSD",
+            "email": "contato@edelcio.muniz.nom.br",
+            "homepage": "https://edelcio.muniz.nom.br",
+            "role": "Agency"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.8.0"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload": {
+        "psr-4": {
+            "Notification\\": "_app"
+        }
+    }
+}
